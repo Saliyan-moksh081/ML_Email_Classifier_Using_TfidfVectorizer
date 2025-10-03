@@ -18,6 +18,7 @@ vectorizer, model = load_models()
 # --- App UI ---
 st.title("Email Spam Classifier")
 st.write("Enter an email text below to check if it's spam or not.")
+st.write("Made by Mokshith saliyan081")
 
 # Text area for user input
 user_input = st.text_area("Email Text:", height=200)
